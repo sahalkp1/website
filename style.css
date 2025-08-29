@@ -121,3 +121,86 @@ body {
   font-size: 16px;
   color: #1f2937;
 }
+.quote-section {
+  background-color: #e5e7eb;
+  padding: 60px 20px;
+  text-align: center;
+  font-style: italic;
+}
+
+.quote {
+  font-size: 20px;
+  color: #1f2937;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+}
+
+.author {
+  font-size: 18px;
+  font-weight: bold;
+  color: #111827;
+}
+
+
+
+/* Call to Action Section */
+.cta-section {
+  background-color: white;
+  padding: 80px 10%;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* responsive for smaller screens */
+}
+
+.cta-text h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.cta-text p {
+  font-size: 16px;
+  margin-top: 5px;
+  color: #e5e7eb; /* lighter grayish text */
+}
+
+.btn-outline {
+  border: 2px solid white;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn-outline:hover {
+  background-color: white;
+  color: #3882f6;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f2937; /* dark gray */
+  color: #f9faf8; /* white text */
+  text-align: center;
+  padding: 25px 0;
+  font-size: 14px;
+}
+
+.footer a {
+  color: #f9faf8;      
+  text-decoration: none;
+  font-weight: 500;     
+}
+.footer a:hover {
+  color: #e5e7eb9d;  
+}
