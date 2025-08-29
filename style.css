@@ -84,3 +84,40 @@ body {
   font-size: 16px;
 }
 
+/* Information Section */
+.info-section {
+  background-color: white;
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.info-heading {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 40px;
+}
+
+.info-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap; /* responsive: cards go down on small screens */
+}
+
+.card {
+  max-width: 200px;
+}
+
+.card-box {
+  width: 160px;
+  height: 160px;
+  border: 3px solid #3882f6;
+  border-radius: 12px;
+  margin: 0 auto 15px auto;
+}
+
+.card p {
+  font-size: 16px;
+  color: #1f2937;
+}
